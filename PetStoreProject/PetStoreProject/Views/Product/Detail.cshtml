@@ -1,0 +1,784 @@
+﻿@using PetStoreProject.ViewModels
+@{
+	ViewData["Title"] = "Sản Phẩm chi tiết";
+	var product = ViewData["product_detail"] as ProductDetailVM;
+	var productOptions = Newtonsoft.Json.JsonConvert.SerializeObject(product.productOption);
+	var related_products = ViewData["related_products"] as List<RelatedProductVM>;
+}
+<div class="wrapper">
+
+	<div class="popup_wrapper">
+		<div class="subscribe_area_pop">
+			<div class="subscribe_area_wrapper">
+				<div class="subscribe_area_left text-center">
+					<h1>CLEARANCE <span>SALE</span></h1>
+					<h3>EARN DISCOUNTS UP TO <span>75%</span></h3>
+					<p>Join our newsletter and win a chance to earn discounts.</p>
+				</div>
+
+				<div class="subscribe_area text-center">
+					<h2>Enter your e-mail below!</h2>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ad reiciendis.</p>
+					<div class="subscribe-form-group">
+						<form action="#">
+							<input autocomplete="off" type="text" name="message" id="message" placeholder="Enter your email address">
+							<button type="submit">subscribe</button>
+						</form>
+					</div>
+					<div class="subscribe-bottom mt-15">
+						<input type="checkbox" id="newsletter-permission">
+						<label for="newsletter-permission">Don't show this popup again</label>
+					</div>
+					<span class="popup_off">X</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Breadcrumb Area Start Here -->
+	<div class="breadcrumb-area" style="background-image: url(img/bg/breadcrumb_bg_2.jpg)">
+		<div class="container text-center">
+			<h3>Breadcrumb Title</h3>
+			<ol class="breadcrumb breadcrumb-list">
+				<li class="breadcrumb-item">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="breadcrumb-item active">Product Details</li>
+			</ol>
+		</div>
+	</div>
+	<!-- Breadcrumb Area End Here -->
+	<!-- Product Thumbnail Start -->
+	<div class="main-product-thumbnail product_details_wrap_1 adp_top adp_bottom">
+		<div class="container">
+			<div class="row">
+
+				@* <div class="col-lg-6 col-md-6 col-12">
+				<div class="product-details product_details_1">
+				<div class="product-details-img">
+				<div class="tab-content main_large_img product-details-large">
+				@foreach(var image in product.images)
+				{
+				<div id="shop-details-@image.imageid" class="tab-pane large-img-style">
+				<img src="@image.imageurl" alt="">
+				<div class="img-popup-wrap">
+				<a class="img-popup" href="@image.imageurl"><i class="icofont-expand"></i></a>
+				</div>
+				</div>
+				}
+
+				<span class="sticker-sale">-25%</span>
+				<span class="sticker-new">new</span>
+
+				</div>
+
+				<div class="shop-details-tab nav thumb_slider_active product-details-small default_arrow mini_arrow">
+				@foreach(var image in product.images){
+				<a class="shop-details-overly" href="#shop-details-@image.imageid" data-bs-toggle="tab">
+				<img src="@image.imageurl" alt="">
+				</a>
+				}
+				</div>
+
+				</div>
+				</div>
+				</div> *@
+
+				<div class="col-lg-6 col-md-12 col-12">
+					<div class="product-details-img product-details-tab product_details_2 left_side">
+						<div id="gallery" class="product-dec-slider-2 thumb_image_small mini_arrow_var">
+							@foreach (var image in product.images)
+							{
+								<a data-image="@image.ImageUrl" data-zoom-image="@image.ImageUrl">
+									<img src="@image.ImageUrl" alt="">
+								</a>
+							}
+
+
+						</div>
+						<!--Large image-->
+						<div class="zoompro-wrap zoompro-2 thumb_image_large">
+							<div class="zoompro-border zoompro-span">
+								<img class="zoompro" id="large_image" src="@product.productOption[0].img_url" data-zoom-image="@product.productOption[0].img_url" alt="" />
+
+								<div class="product-video">
+									<a class="video-popup" href="https://www.youtube.com/watch?v=pTrC_McU62Q">
+										<i class="icofont-video-alt"></i>
+										Explore Video
+									</a>
+								</div>
+							</div>
+
+							@* <span class="sticker-sale">-25%</span>
+							<span class="sticker-new">New</span> *@
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Thumbnail Description Start -->
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="thubnail-desc ">
+						<!--name-->
+						<h3 class="product-header">@product.Name</h3>
+						<!--Rating-->
+						<ul class="rating-summary">
+							<li class="rating-pro">
+								<i class="icofont-ui-rating"></i>
+								<i class="icofont-ui-rating"></i>
+								<i class="icofont-ui-rate-blank"></i>
+								<i class="icofont-ui-rate-blank"></i>
+								<i class="icofont-ui-rate-blank"></i>
+							</li>
+							<li class="read-review"><a href="#">View Reviews (2)</a></li>
+							<li class="write-review"><a href="#">Write Review</a></li>
+						</ul>
+						<!--
+							<div class="pro-thumb-price mt-20">
+							<span class="regular-price">$98.25</span><del class="discount_price">$72.00</del>
+						</div>
+						-->
+						<!--Brand-->
+						<div class="rating-summary">
+							Thương hiệu : @product.Brand
+						</div>
+						<!--Price-->
+						<div class="pro-thumb-price mt-20">
+							<span class="regular-price" id="price">@product.productOption[0].price</span>
+						</div>
+
+
+						<!--
+						<div class="product-size mtb-30 clearfix">
+							<label>Size</label>
+							<select class="">
+								<option>S</option>
+								<option>M</option>
+								<option>L</option>
+								<option>XL</option>
+								<option>XXL</option>
+								<option>3XL</option>
+							</select>
+						</div>
+						-->
+						<!--Attribute-->
+						@if (product.attributes[0].Name != null)
+						{
+							<div class="size_color_wraper" id="attribute">
+								<div class="color clearfix mb-30">
+									<label>Color :</label>
+									<ul class="color-list">
+										@for (var index = 0; index < product.attributes.Count; index++)
+										{
+											<li onclick="attribute_selected(@index, @product.attributes[index].AttributeId)">@product.attributes[index].Name</li>
+										}
+									</ul>
+								</div>
+							</div>
+						}
+
+						<!--Size-->
+						@if (product.sizes[0].Name != null)
+						{
+							<div class="theme_size clearfix" id="size">
+								<label>Size :</label>
+								<div class="color-list size_list">
+									<ul class="color-list size_list">
+										@for (var index = 0; index < product.sizes.Count; index++)
+										{
+											<li onclick="size_selected(@index, @product.sizes[index].SizeId)">@product.sizes[index].Name</li>
+										}
+									</ul>
+								</div>
+							</div>
+						}
+
+						<div>
+							Tổng số tiền: <span id="amount">@product.productOption[0].price</span>
+						</div>
+
+						<div class="details_action_wraper">
+							<ul>
+								<li class="box-quantity">
+									<form action="#" onclick="total_price()">
+										<input class="quantity" type="number" min="1" value="1" id="quantity">
+									</form>
+								</li>
+								<li>
+									<a class="details_cart" href="cart.html" title="" data-original-title="Add to Cart" tabindex="0">Add To Cart</a>
+								</li>
+								<li>
+									<a class="details_wishlist" href="wishlist.html" title="" data-original-title="Wishlist" tabindex="0"><i class="icofont-heart-alt"></i></a>
+								</li>
+								<li>
+									<a class="details_compare" href="compare.html" title="" data-original-title="Compare" tabindex="0"><i class="icofont-random"></i></a>
+								</li>
+
+							</ul>
+						</div>
+
+					</div>
+				</div>
+				<!-- Thumbnail Description End -->
+
+			</div>
+			<!-- Row End -->
+		</div>
+		<!-- Container End -->
+	</div>
+	<!-- Product Thumbnail End -->
+	<!-- Product Thumbnail Description Start -->
+	<div class="thumnail-desc">
+		<div class="container">
+			<div class="thumb-desc-inner">
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="main-thumb-desc nav tabs-area" role="tablist">
+							<li><a class="active" data-bs-toggle="tab" href="#dtail">Description</a></li>
+							<li><a data-bs-toggle="tab" href="#review">Reviews</a></li>
+							<li><a data-bs-toggle="tab" href="#new_tab_1">Special Notes</a></li>
+						</ul>
+						<!-- Product Thumbnail Tab Content Start -->
+						<div class="tab-content thumb-content">
+							<div id="dtail" class="tab-pane fade show active">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's pets_tab dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</div>
+							<div id="review" class="tab-pane fade">
+								<!-- Reviews Start -->
+								<div class="review">
+									<div class="group-title">
+										<h2>Customer Review</h2>
+									</div>
+
+									<div class="riview-field">
+										<form autocomplete="off" action="#">
+											<div class="form-group">
+												<label class="req" for="sure-name">Name</label>
+												<input type="text" class="form-control" id="sure-name" required="required">
+											</div>
+											<div class="form-group">
+												<label class="req" for="subject">Email</label>
+												<input type="email" class="form-control" id="subject" required="required">
+											</div>
+
+											<div class="rating_wrap">
+												<h5>Your Rating</h5>
+												<ul class="review-list">
+													<!-- Single Review List Start -->
+													<li>
+														<i class="icofont-ui-rating"></i>
+														<i class="icofont-ui-rating"></i>
+														<i class="icofont-ui-rating"></i>
+														<i class="icofont-ui-rating"></i>
+														<i class="icofont-ui-rate-blank"></i>
+													</li>
+													<!-- Single Review List End -->
+												</ul>
+												<!-- Reviews Field Start -->
+											</div>
+
+											<div class="form-group">
+												<label class="req" for="subject2">Title of Review</label>
+												<input type="text" class="form-control" id="subject2" required="required">
+											</div>
+											<div class="form-group">
+												<label class="req" for="comments">Your Review (1000) characters remaining </label>
+												<textarea class="form-control" rows="5" id="comments" required="required"></textarea>
+											</div>
+											<button type="submit" class="customer-btn">Submit</button>
+										</form>
+									</div>
+									<!-- Reviews Field Start -->
+								</div>
+								<!-- Reviews End -->
+							</div>
+							<div id="new_tab_1" class="tab-pane fade">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu Donec ac tempus ante.
+
+									Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 	Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.
+								</p>
+							</div>
+
+						</div>
+						<!-- Product Thumbnail Tab Content End -->
+					</div>
+				</div>
+				<!-- Row End -->
+			</div>
+		</div>
+		<!-- Container End -->
+	</div>
+	<!-- Product Thumbnail Description End -->
+	<!-- collective product Area Start Here -->
+	<div class="collective-product adp_top adp_bottom">
+		<div class="container">
+			<!-- Section Title Start Here -->
+			<div class="section-title">
+				<span>#Our products</span>
+				<h2>Related Products</h2>
+			</div>
+			<!-- Section Title End Here -->
+			<div class="feature-pro-active-wrapper">
+				<div class="collective-product-active-4 row default_arrow small_arrow">
+					@foreach (var p in related_products)
+					{
+						<!-- Single Product Start -->
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<div class="single-template-product">
+								<!-- Product Image Start -->
+								<div class="pro-img">
+
+									@* <span class="sticker-sale">-25%</span>
+									<span class="sticker-new">New</span> *@
+
+									<a href="product-details.html">
+										<img class="primary-img" src="@p.images[0].ImageUrl" alt="single-product">
+										@* <img class="secondary-img" src="img/products/p24.jpg" alt="single-product"> *@
+									</a>
+
+									<div class="item_quick_link">
+										<a href="#" data-bs-toggle="modal" data-bs-target="#myModal" title="Quick View" onclick="quickView(@p.ProductId)"><i class="icofont-search"></i></a>
+									</div>
+
+									<div class="product-count-wrap">
+										<div class="product-countdown" data-countdown="2022/06/01"></div>
+									</div>
+
+								</div>
+								<!-- Product Image End -->
+								<!-- Product Content Start -->
+								<div class="product_content_wrap">
+									<div class="product_content">
+										<h4><a href="product-details.html">@p.Name</a></h4>
+
+										<div class="grid_price">
+											<span class="regular-price">@p.Price</span>
+											@* <del class="discount_price">$75.50</del> *@
+										</div>
+
+									</div>
+									<div class="item_add_cart">
+										<a class="grid_compare" href="compare.html" title="Compare"><i class="icofont-random"></i></a>
+										<a class="grid_cart" href="cart.html" title="Add to Cart">Add To Cart</a>
+										<a class="grid_wishlist" href="wishlist.html" title="Wishlist"><i class="icofont-heart-alt"></i></a>
+									</div>
+								</div>
+								<!-- Product Content End -->
+							</div>
+						</div>
+						<!-- Single Product End -->
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- collective product Area Start Here -->
+	@* <div class="modal fade common_class_modal measurment_modal_wrapper" id="measurment" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header justify-content-end">
+					<button type="button" data-bs-dismiss="modal" aria-label="Close"><i class="icofont-close"></i> </button>
+				</div>
+				<div class="modal-body">
+					<table class="table-size-guide responsive-table table-center">
+						<tbody>
+							<tr>
+								<th>INTERNATIONAL</th>
+								<th>XS</th>
+								<th>S</th>
+								<th>M</th>
+								<th>L</th>
+								<th>XL</th>
+								<th>XXL</th>
+								<th>XXXL</th>
+							</tr>
+							<tr>
+								<td>EUROPE</td>
+								<td>32</td>
+								<td>34</td>
+								<td>36</td>
+								<td>38</td>
+								<td>40</td>
+								<td>42</td>
+								<td>44</td>
+							</tr>
+							<tr>
+								<td>US</td>
+								<td>0</td>
+								<td>2</td>
+								<td>4</td>
+								<td>6</td>
+								<td>8</td>
+								<td>10</td>
+								<td>12</td>
+							</tr>
+							<tr>
+								<td>CHEST FIT (INCHES)</td>
+								<td>28"</td>
+								<td>30"</td>
+								<td>32"</td>
+								<td>34"</td>
+								<td>36"</td>
+								<td>38"</td>
+								<td>40"</td>
+							</tr>
+							<tr>
+								<td>CHEST FIT (CM)</td>
+								<td>716</td>
+								<td>76</td>
+								<td>81</td>
+								<td>86</td>
+								<td>91.5</td>
+								<td>96.5</td>
+								<td>101.1</td>
+							</tr>
+							<tr>
+								<td>WAIST FIR (INCHES)</td>
+								<td>21"</td>
+								<td>23"</td>
+								<td>25"</td>
+								<td>27"</td>
+								<td>29"</td>
+								<td>31"</td>
+								<td>33"</td>
+							</tr>
+							<tr>
+								<td>WAIST FIR (CM)</td>
+								<td>53.5</td>
+								<td>58.5</td>
+								<td>63.5</td>
+								<td>68.5</td>
+								<td>74</td>
+								<td>79</td>
+								<td>84</td>
+							</tr>
+							<tr>
+								<td>HIPS FIR (INCHES)</td>
+								<td>33"</td>
+								<td>34"</td>
+								<td>36"</td>
+								<td>38"</td>
+								<td>40"</td>
+								<td>42"</td>
+								<td>44"</td>
+							</tr>
+							<tr>
+								<td>HIPS FIR (CM)</td>
+								<td>81.5</td>
+								<td>86.5</td>
+								<td>91.5</td>
+								<td>96.5</td>
+								<td>101</td>
+								<td>106.5</td>
+								<td>111.5</td>
+							</tr>
+							<tr>
+								<td>SKORT LENGTHS (SM)</td>
+								<td>36.5</td>
+								<td>38</td>
+								<td>39.5</td>
+								<td>41</td>
+								<td>42.5</td>
+								<td>44</td>
+								<td>45.5</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div> *@<!-- Modal -->
+
+	@* <div class="modal fade common_class_modal modal_shipping_wrapper" id="shipping_policy" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header justify-content-end">
+					<button type="button" data-bs-dismiss="modal" aria-label="Close"><i class="icofont-close"></i> </button>
+				</div>
+				<div class="modal-body">
+					<h4># Shipping Policy</h4>
+					<ul>
+						<li>See the delivery FAQs for details on shipping methods</li>
+						<li>In-store collection available within 1 to 7 business days</li>
+						<li>Next-day and Express delivery options also loerm isp available</li>
+						<li>Purchases are delivered in an orange box tied with a Bolduc ribbon, with the exception of certain items</li>
+						<li>See the delivery FAQs for details on shipping methods, costs and delivery times</li>
+					</ul>
+					<h4># Return & Exchanges Policy</h4>
+					<ul>
+						<li>Easy and complimentary, within 7 days</li>
+						<li>See conditions and procedure in our return FAQs</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div> *@<!-- Modal -->
+
+	@* <div class="modal fade common_class_modal modal_opinion_wrapper" id="product_oponion" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-md modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Have Any Query?</h5>
+					<button type="button" data-bs-dismiss="modal" aria-label="Close"><i class="icofont-close"></i> </button>
+				</div>
+				<div class="modal-body">
+					<form method="post" action="https://html.themewin.com/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="product_oponion_form">
+						<input type="hidden" name="form_type" value="contact" /><input type="hidden" name="utf8" value="✓" />
+						<div class="row">
+							<div class="col-12">
+							</div>
+							<div class="col-md-12 mb-40">
+								<input type="text" required placeholder="Name *" class="" name="contact[name]" id="ContactFormName" value="">
+							</div>
+							<div class="col-md-12 mb-40">
+								<input type="email" required placeholder="Email *" class="" name="contact[email]" id="ContactFormEmail" value="">
+							</div>
+							<div class="col-lg-12 mb-40">
+								<input type="text" id="ContactFormSubject" name="contact[subject]" placeholder="Phone Number *" value="">
+							</div>
+							<div class="col-lg-12 mb-40">
+								<textarea placeholder="Your Message *" class="custom-textarea" name="contact[body]" id="ContactFormMessage"></textarea>
+							</div>
+							<div class="col-lg-12 text-center">
+								<button type="submit" value="submit" class="query_button">Send Query</button>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div> *@
+
+	<!-- Quick View Content Start -->
+	<div class="main-product-thumbnail quick-thumb-content">
+		<div class="container">
+			<!-- The Modal -->
+			<div class="modal fade" id="myModal">
+				<div class="modal-dialog modal-lg modal-dialog-centered">
+					<div class="modal-content">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+						</div>
+						<!-- Modal body -->
+						<div class="modal-body">
+							<div class="row">
+
+								<div class="col-lg-6 col-md-6">
+									<div class="product-details product_details_1">
+										<div class="product-details-img">
+											<div class="tab-content main_large_img product-details-large">
+												<div id="shop-details-1" class="tab-pane large-img-style">
+													<img src="img/products/p1.jpg" alt="">
+												</div>
+												<div id="shop-details-2" class="tab-pane active large-img-style">
+													<img src="img/products/p2.jpg" alt="">
+												</div>
+												<div id="shop-details-3" class="tab-pane large-img-style">
+													<img src="img/products/p3.jpg" alt="">
+												</div>
+												<div id="shop-details-4" class="tab-pane large-img-style">
+													<img src="img/products/p4.jpg" alt="">
+												</div>
+
+												@* <span class="sticker-sale">-25%</span>
+												<span class="sticker-new">New</span> *@
+
+											</div>
+
+											<div class="shop-details-tab nav product-details-small">
+												<a class="shop-details-overly" href="#shop-details-1" data-bs-toggle="tab">
+													<img src="img/products/p1.jpg" alt="">
+												</a>
+												<a class="shop-details-overly active" href="#shop-details-2" data-bs-toggle="tab">
+													<img src="img/products/p2.jpg" alt="">
+												</a>
+												<a class="shop-details-overly" href="#shop-details-3" data-bs-toggle="tab">
+													<img src="img/products/p3.jpg" alt="">
+												</a>
+												<a class="shop-details-overly" href="#shop-details-4" data-bs-toggle="tab">
+													<img src="img/products/p4.jpg" alt="">
+												</a>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+								<!-- Thumbnail Description Start -->
+								<div class="col-md-6">
+									<div class="thubnail-desc ">
+										<h3 class="product-header"><a href="#">Details Product Name Here</a></h3>
+										<ul class="rating-summary">
+											<li class="rating-pro">
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rate-blank"></i>
+												<i class="icofont-ui-rate-blank"></i>
+												<i class="icofont-ui-rate-blank"></i>
+											</li>
+											<li class="read-review"><a href="#">View Reviews (2)</a></li>
+											<li class="write-review"><a href="#">Write Review</a></li>
+										</ul>
+										<div class="pro-thumb-price mt-20">
+											<span class="regular-price">$98.25</span><del class="discount_price">$72.00</del>
+										</div>
+
+
+										<div class="pro-desc-details">
+											Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud ullamco. Enim ad minim venialo quis nostrud ullamco.
+										</div>
+
+										<div class="product-varient-wrapper">
+											<div class="product-color pv_class clearfix">
+												<label>Color :</label>
+												<select class="">
+													<option>Red</option>
+													<option>Green</option>
+													<option>Blue</option>
+													<option>Black</option>
+													<option>Yellow</option>
+													<option>Pink</option>
+												</select>
+											</div>
+											<div class="product-size pv_class clearfix">
+												<label>Size :</label>
+												<select class="">
+													<option>S</option>
+													<option>M</option>
+													<option>L</option>
+													<option>XL</option>
+													<option>XXL</option>
+													<option>3XL</option>
+												</select>
+											</div>
+											<div class="product-tag pv_class clearfix">
+												<label>Tags :</label>
+												<select class="">
+													<option>Cat</option>
+													<option>Dog</option>
+													<option>Fish</option>
+													<option>Horse</option>
+												</select>
+											</div>
+										</div>
+
+
+										<div class="details_action_wraper">
+											<ul>
+
+												<li class="box-quantity">
+													<form action="#">
+														<input class="quantity" type="number" min="1" value="1">
+													</form>
+												</li>
+												<li>
+													<a class="details_cart" href="cart.html" title="" data-original-title="Add to Cart" tabindex="0">Add To Cart</a>
+												</li>
+												<li>
+													<a class="details_wishlist" href="wishlist.html" title="" data-original-title="Wishlist" tabindex="0"><i class="icofont-heart-alt"></i></a>
+												</li>
+												<li>
+													<a class="details_compare" href="compare.html" title="" data-original-title="Compare" tabindex="0"><i class="icofont-random"></i></a>
+												</li>
+
+											</ul>
+										</div>
+
+
+										<div class="pro-details-social">
+											<ul>
+												<li><a class="facebook" href="#" title="facebook"><i class="icofont-facebook"></i> Like</a></li>
+												<li><a class="twitter" href="#" title="twitter"><i class="icofont-twitter"></i> tweet</a></li>
+												<li><a class="pinterest" href="#" title="pinterest"><i class="icofont-pinterest"></i> save</a></li>
+												<li><a class="google-plus" href="#" title="google +"><i class="icofont-google-plus"></i> share</a></li>
+												<li><a class="linkedin" href="#" title="linkedin"><i class="icofont-linkedin"></i> linked</a></li>
+											</ul>
+										</div>
+
+
+										<div class="secure_pay">
+											<h6>Guaranteed safe Pay :</h6>
+											<img src="~/img/icons/secure_pay.jpg" alt="single-product">
+										</div>
+
+
+									</div>
+								</div>
+								<!-- Thumbnail Description End -->
+
+
+							</div>
+							<!-- Row End -->
+						</div>
+						<!-- Modal footer -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Quick View Content End -->
+
+</div>
+<!-- Main Wrapper End Here -->
+<script>
+
+	var attributeId = @product.productOption[0].attribute.AttributeId
+	var sizeId = @product.productOption[0].size.SizeId;
+	var price = @product.productOption[0].price
+			var img_url;
+	window.onload = function () {
+		// Gọi hàm của bạn ở đây
+		updatePriceAndImage();
+	};
+
+	document.getElementById('size').querySelectorAll('li')[0].classList.add('select');
+	document.getElementById('attribute').querySelectorAll('li')[0].classList.add('select');
+
+	function size_selected(index, size_id) {
+		var list_li = document.getElementById('size').querySelectorAll('li');
+		list_li.forEach(function (li) {
+			li.classList.remove('select');
+		});
+		list_li[index].classList.add('select');
+		sizeId = size_id;
+		updatePriceAndImage();
+	}
+
+	function attribute_selected(index, attribute_id) {
+		var list_li = document.getElementById('attribute').querySelectorAll('li');
+		list_li.forEach(function (li) {
+			li.classList.remove('select');
+		});
+		list_li[index].classList.add('select');
+		attributeId = attribute_id;
+		updatePriceAndImage();
+	}
+
+	function updatePriceAndImage() {
+		var productOptions_json = @Html.Raw(productOptions);
+		for (var id = 0; id <= productOptions_json.length; id ++){
+			if (productOptions_json[id]['attribute']['AttributeId'] == attributeId && productOptions_json[id].size.SizeId == sizeId) {
+				price = productOptions_json[id].price
+				img_url = productOptions_json[id].img_url
+				break
+			}
+		}
+		document.getElementById('large_image').setAttribute('src', img_url)
+		document.getElementById('price').innerText = price
+		console.log(price)
+		total_price()
+	}
+
+	function total_price(){
+		var quantity = document.getElementById("quantity").value
+		var amount = price*quantity
+		document.getElementById("amount").innerText = amount
+	}
+
+
+</script>

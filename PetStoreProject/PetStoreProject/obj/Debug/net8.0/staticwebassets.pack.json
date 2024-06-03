@@ -1,0 +1,941 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\default.css",
+      "PackagePath": "staticwebassets\\css\\default.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\css\\icofont.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-bg_glass_75_d0e5f5_1x400.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-bg_glass_75_d0e5f5_1x400.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-bg_glass_85_dfeffc_1x400.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-bg_glass_85_dfeffc_1x400.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-bg_glass_95_fef1ec_1x400.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-bg_glass_95_fef1ec_1x400.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-bg_gloss-wave_55_5c9ccc_500x100.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-bg_gloss-wave_55_5c9ccc_500x100.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-bg_inset-hard_100_f5f8f9_1x100.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-bg_inset-hard_100_f5f8f9_1x100.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-bg_inset-hard_100_fcfdfd_1x100.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-bg_inset-hard_100_fcfdfd_1x100.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-icons_217bc0_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_217bc0_256x240.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-icons_2e83ff_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_2e83ff_256x240.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-icons_469bdd_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_469bdd_256x240.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-icons_6da8d5_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_6da8d5_256x240.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-icons_cd0a0a_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_cd0a0a_256x240.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-icons_d8e7f3_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_d8e7f3_256x240.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\images\\ui-icons_f9bd01_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_f9bd01_256x240.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\myStyle.css",
+      "PackagePath": "staticwebassets\\css\\myStyle.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\slick-slider.css",
+      "PackagePath": "staticwebassets\\css\\slick-slider.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\fonts\\georgia_italic-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\georgia_italic-webfont.woff"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\fonts\\georgia_italic-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\georgia_italic-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\404.png",
+      "PackagePath": "staticwebassets\\img\\404.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\banner_1.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner_1.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\banner_2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\banner_3.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner_3.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\banner_4.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner_4.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\banner_5.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner_5.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\banner_6.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner_6.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\banner_7.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner_7.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\banner_8.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner_8.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\best_feature.png",
+      "PackagePath": "staticwebassets\\img\\banner\\best_feature.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\best_feature_2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\best_feature_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\best_item_1.png",
+      "PackagePath": "staticwebassets\\img\\banner\\best_item_1.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\best_item_2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\best_item_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\best_pet_food_1.png",
+      "PackagePath": "staticwebassets\\img\\banner\\best_pet_food_1.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\best_pet_food_2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\best_pet_food_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\best_pet_food_3.png",
+      "PackagePath": "staticwebassets\\img\\banner\\best_pet_food_3.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\lookbook_banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\lookbook_banner.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\mega_menu.png",
+      "PackagePath": "staticwebassets\\img\\banner\\mega_menu.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\mega_menu_2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\mega_menu_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\product_banner.png",
+      "PackagePath": "staticwebassets\\img\\banner\\product_banner.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\product_banner_2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\product_banner_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\product_banner_3.png",
+      "PackagePath": "staticwebassets\\img\\banner\\product_banner_3.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\product_banner_4.png",
+      "PackagePath": "staticwebassets\\img\\banner\\product_banner_4.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\promotoion_banner_1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\promotoion_banner_1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\promotoion_banner_2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\promotoion_banner_2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\banner\\summer_sale.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\summer_sale.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\bg\\app_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg\\app_bg.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\bg\\breadcrumb_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg\\breadcrumb_bg.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\bg\\breadcrumb_bg_2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg\\breadcrumb_bg_2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\bg\\countdown_img.png",
+      "PackagePath": "staticwebassets\\img\\bg\\countdown_img.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\bg\\footer_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg\\footer_bg.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\bg\\footer_bg_2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg\\footer_bg_2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\bg\\promotion-1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg\\promotion-1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blg10.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blg10.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blg11.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blg11.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blg8.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blg8.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blg9.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blg9.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blog_1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blog_2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blog_3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_3.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blog_4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_4.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blog_5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_5.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blog_6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_6.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\blog\\blog_details.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_details.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\brand\\b1.png",
+      "PackagePath": "staticwebassets\\img\\brand\\b1.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\brand\\b2.png",
+      "PackagePath": "staticwebassets\\img\\brand\\b2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\brand\\b3.png",
+      "PackagePath": "staticwebassets\\img\\brand\\b3.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\brand\\b4.png",
+      "PackagePath": "staticwebassets\\img\\brand\\b4.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\brand\\b5.png",
+      "PackagePath": "staticwebassets\\img\\brand\\b5.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\header\\1.html",
+      "PackagePath": "staticwebassets\\img\\header\\1.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\header\\2.html",
+      "PackagePath": "staticwebassets\\img\\header\\2.html"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\1.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\10.png",
+      "PackagePath": "staticwebassets\\img\\icons\\10.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\11.png",
+      "PackagePath": "staticwebassets\\img\\icons\\11.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\12.png",
+      "PackagePath": "staticwebassets\\img\\icons\\12.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\13.png",
+      "PackagePath": "staticwebassets\\img\\icons\\13.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\14.png",
+      "PackagePath": "staticwebassets\\img\\icons\\14.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\15.png",
+      "PackagePath": "staticwebassets\\img\\icons\\15.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\16.png",
+      "PackagePath": "staticwebassets\\img\\icons\\16.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\3.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\4.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\5.png",
+      "PackagePath": "staticwebassets\\img\\icons\\5.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\6.png",
+      "PackagePath": "staticwebassets\\img\\icons\\6.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\7.png",
+      "PackagePath": "staticwebassets\\img\\icons\\7.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\8.png",
+      "PackagePath": "staticwebassets\\img\\icons\\8.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\9.png",
+      "PackagePath": "staticwebassets\\img\\icons\\9.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\app-store.png",
+      "PackagePath": "staticwebassets\\img\\icons\\app-store.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\care_01.png",
+      "PackagePath": "staticwebassets\\img\\icons\\care_01.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\care_02.png",
+      "PackagePath": "staticwebassets\\img\\icons\\care_02.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\care_03.png",
+      "PackagePath": "staticwebassets\\img\\icons\\care_03.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\care_04.png",
+      "PackagePath": "staticwebassets\\img\\icons\\care_04.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\ctg_1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ctg_1.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\ctg_2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ctg_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\ctg_3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ctg_3.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\ctg_4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ctg_4.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\ctg_5.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ctg_5.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\ctg_6.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ctg_6.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\ctg_7.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ctg_7.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\payments.png",
+      "PackagePath": "staticwebassets\\img\\icons\\payments.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\play-store.png",
+      "PackagePath": "staticwebassets\\img\\icons\\play-store.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\price_1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\price_1.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\price_2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\price_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\price_3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\price_3.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\secure_pay.jpg",
+      "PackagePath": "staticwebassets\\img\\icons\\secure_pay.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\service_1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\service_1.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\service_2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\service_2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\service_3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\service_3.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\icons\\service_4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\service_4.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\logo\\logo2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo2.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_3.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_4.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_5.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_6.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_7.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_7.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_8.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_8.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\inst_port_9.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\inst_port_9.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_3.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_4.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_5.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_6.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_7.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_7.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_8.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_8.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\portfolio\\port_9.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\port_9.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p1.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p10.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p10.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p11.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p11.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p12.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p12.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p13.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p13.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p14.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p14.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p15.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p15.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p16.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p16.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p17.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p17.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p18.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p18.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p19.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p19.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p2.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p20.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p20.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p21.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p21.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p22.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p22.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p23.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p23.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p24.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p24.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p25.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p25.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p26.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p26.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p27.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p27.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p28.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p28.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p29.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p29.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p3.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p3.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p30.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p30.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p31.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p31.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p32.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p32.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p33.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p33.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p34.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p34.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p35.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p35.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p36.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p36.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p37.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p37.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p38.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p38.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p39.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p39.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p4.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p4.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p40.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p40.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p41.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p41.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p42.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p42.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p43.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p43.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p44.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p44.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p45.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p45.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p46.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p46.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p47.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p47.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p48.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p48.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p49.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p49.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p5.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p5.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p50.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p50.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p6.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p6.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p7.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p7.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p8.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p8.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\products\\p9.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\p9.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_10.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_10.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_11.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_11.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_2.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_3.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_3.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_4.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_4.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_5.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_5.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_6.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_6.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_7.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_7.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_8.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_8.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\full_slider_9.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\full_slider_9.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_10.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_10.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_11.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_11.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_12.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_12.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_13.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_13.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_2.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_3.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_3.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_5.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_5.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_6.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_6.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_7.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_7.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_8.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_8.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\slider\\slider_9.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_9.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\4.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\testmonial\\01.png",
+      "PackagePath": "staticwebassets\\img\\testmonial\\01.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\testmonial\\02.png",
+      "PackagePath": "staticwebassets\\img\\testmonial\\02.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\testmonial\\03.png",
+      "PackagePath": "staticwebassets\\img\\testmonial\\03.png"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\img\\testmonial\\testi_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\testmonial\\testi_bg.jpg"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\jquery.scrollUp.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollUp.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\vendor\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\wwwroot\\js\\vendor\\modernizr-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-3.5.0.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PetStoreProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PetStoreProject.props",
+      "PackagePath": "build\\PetStoreProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PetStoreProject.props",
+      "PackagePath": "buildMultiTargeting\\PetStoreProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PetStoreProject.props",
+      "PackagePath": "buildTransitive\\PetStoreProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
