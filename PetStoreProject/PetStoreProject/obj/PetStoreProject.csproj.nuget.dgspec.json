@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\PetStoreProject.csproj": {}
+    "D:\\Software_engineering\\KY_5\\Test-\\PetStoreProject\\PetStoreProject\\PetStoreProject.csproj": {}
   },
   "projects": {
-    "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\PetStoreProject.csproj": {
+    "D:\\Software_engineering\\KY_5\\Test-\\PetStoreProject\\PetStoreProject\\PetStoreProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\PetStoreProject.csproj",
+        "projectUniqueName": "D:\\Software_engineering\\KY_5\\Test-\\PetStoreProject\\PetStoreProject\\PetStoreProject.csproj",
         "projectName": "PetStoreProject",
-        "projectPath": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\PetStoreProject.csproj",
+        "projectPath": "D:\\Software_engineering\\KY_5\\Test-\\PetStoreProject\\PetStoreProject\\PetStoreProject.csproj",
         "packagesPath": "C:\\Users\\Nguyen Kim Duong\\.nuget\\packages\\",
-        "outputPath": "D:\\Software_engineering\\KY_5\\ASP.net\\PetStoreProject\\PetStoreProject\\obj\\",
+        "outputPath": "D:\\Software_engineering\\KY_5\\Test-\\PetStoreProject\\PetStoreProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nguyen Kim Duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
